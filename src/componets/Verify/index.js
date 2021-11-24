@@ -18,7 +18,7 @@ const verify = () => {
                     <FormContent>
                         <Form action='#'>
                             <FormH1>Account Created!</FormH1>
-                            <FormLabel>Please follow the instructions sent to your email address.</FormLabel>
+                            <FormLabel>Please follow the instructions sent to your email address</FormLabel>
                         </Form>
                     </FormContent>
                 </FormWrap>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Link} from 'react-router-dom';
+import {Link as LinkR, Link} from 'react-router-dom';
 
 export const Container = styled.div`
   min-height: 692px;
@@ -91,7 +91,7 @@ export const FormInput = styled.input`
   border-radius: 4px;
 `;
 
-export const FormButton = styled.button`
+export const FormButton = styled(LinkR)`
   background: #01bf71;
   padding: 16px 0;
   border: none;
@@ -99,6 +99,11 @@ export const FormButton = styled.button`
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  text-align: center;
 `;
 
 export const Text = styled.span`

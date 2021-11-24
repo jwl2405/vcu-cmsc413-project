@@ -11,7 +11,6 @@ import {
     Icon,
     Text
 } from "./SignupElements";
-
 const Signup = () => {
     return (
         <>
@@ -29,8 +28,8 @@ const Signup = () => {
                             <FormInput type='email' required />
                             <FormLabel htmlFor='for'>Enter a password</FormLabel>
                             <FormInput type='password' required />
-                            <FormButton type='submit'>Continue</FormButton>
-                            <Text>Forgot password</Text>
+                            <FormButton type='submit' to='/verify'>Continue</FormButton>
+                            <Text>Forgot password?</Text>
                         </Form>
                     </FormContent>
                 </FormWrap>
