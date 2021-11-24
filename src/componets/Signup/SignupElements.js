@@ -92,15 +92,15 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled(LinkR)`
-  background: #01bf71;
-  padding: 16px 0;
-  border: none;
   border-radius: 4px;
+  background: #01bf71;
+  white-space: nowrap;
+  padding: 16px 0;
   color: #fff;
   font-size: 20px;
-  cursor: pointer;
-  white-space: nowrap;
   outline: none;
+  border: none;
+  cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   text-align: center;
