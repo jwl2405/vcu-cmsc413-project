@@ -8,6 +8,8 @@ import SignupPage from "./pages/signup";
 import verifyPage from "./pages/verify";
 import AboutUsPage from "./pages/aboutus";
 import DiscoverPage from "./pages/discover";
+import LogOutPage from "./pages/logout";
+
 
 function App() {
     return (
@@ -20,6 +22,8 @@ function App() {
                 <Route path="/verify" component={verifyPage} exact />
                 <Route path="/aboutus" component={AboutUsPage} exact />
                 <Route path="/discover" component={DiscoverPage} exact />
+                <Route path="/logout" component={LogOutPage} exact />
+
             </Switch>
         </Router>
     );

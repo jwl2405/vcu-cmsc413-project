@@ -8,7 +8,7 @@ const DiscoverPage =() =>{
         <>
             <ScrollToTop />
             <Discover />
-            <Footer />
+                <Footer />
         </>
     );
 };

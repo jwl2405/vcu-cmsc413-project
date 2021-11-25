@@ -7,7 +7,8 @@ import {
     SidebarMenu,
     SidebarLink,
     SideBtnWrap,
-    SidebarRoute
+    SidebarRoute,
+    SidebarLinkS
 } from './SidebarElements'
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -20,7 +21,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarMenu>
                     <SidebarLink to='/AboutUs'>About</SidebarLink>
                     <SidebarLink to='/Discover'>Discover</SidebarLink>
-                    <SidebarLink to='/'>Services</SidebarLink>
+                    <SidebarLinkS to='/'>Services</SidebarLinkS>
                     <SidebarLink to='/signup'>Sign Up</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>

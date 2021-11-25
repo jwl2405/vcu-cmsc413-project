@@ -8,7 +8,7 @@ const AboutUsPage =() =>{
         <>
             <ScrollToTop />
             <AboutUs />
-            <Footer />
+                <Footer />
         </>
     );
 };

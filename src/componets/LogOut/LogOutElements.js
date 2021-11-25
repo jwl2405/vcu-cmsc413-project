@@ -1,16 +1,6 @@
 import styled from "styled-components";
-import {Link} from 'react-router-dom';
+import {Link as LinkR, Link} from 'react-router-dom';
 
-export const FormWrap = styled.div`
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-  @media screen and (max-width: 400px){
-    height: 80%;
-  }
-`;
 export const Container = styled.div`
   min-height: 692px;
   position: fixed;
@@ -21,10 +11,21 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   background: linear-gradient(
-          108deg,
-          rgba(1, 147, 86, 1) 0%,
-          rgba(10, 201, 122, 1) 100%
+    108deg,
+    rgba(1, 147, 86, 1) 0%,
+    rgba(10, 201, 122, 1) 100%
   );
+`;
+
+export const FormWrap = styled.div`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  @media screen and (max-width: 400px){
+    height: 80%;
+  }
 `;
 
 export const Icon = styled(Link)`
@@ -77,18 +78,17 @@ export const FormH1 = styled.h1`
   text-align: center;
 `;
 
-
-export const FormInput = styled.input`
-  padding: 16px 16px;
-  margin-bottom: 32px;
+export const FormButton = styled(LinkR)`
+  background: #01bf71;
+  padding: 16px 0;
   border: none;
   border-radius: 4px;
-`;
-
-
-export const Text = styled.span`
-  text-align: center;
-  margin-top: 24px;
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  text-align: center;
 `;

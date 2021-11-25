@@ -1,16 +1,16 @@
 import React from 'react';
-import Signin from '../componets/Signin';
+import LogOut from '../componets/LogOut';
 import ScrollToTop from "../componets/ScrollToTop";
 import Footer from "../componets/Footer";
 
-const SigninPage =() =>{
+const LogOutPage =() =>{
     return (
         <>
             <ScrollToTop />
-            <Signin />
+            <LogOut />
                 <Footer />
         </>
     );
 };
 
-export default SigninPage;
+export default LogOutPage;

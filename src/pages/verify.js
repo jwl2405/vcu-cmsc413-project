@@ -8,7 +8,7 @@ const verifyPage =() =>{
         <>
             <ScrollToTop />
             <Verify />
-            <Footer />
+                <Footer />
         </>
     );
 };
