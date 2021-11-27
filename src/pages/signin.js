@@ -8,7 +8,7 @@ const SigninPage =() =>{
         <>
             <ScrollToTop />
             <Signin />
-                <Footer />
+            <Footer />
         </>
     );
 };
